@@ -1,14 +1,11 @@
-head{ border-style: solid;
- border-color: white;
-      
-}
+
 
 body { 
 
 	border-style: solid;
 border-color: black;
  
-	background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/space-wallpapers-21.jpg);
+	background-image: url(http://hdw9.com/wp-content/uploads/2013/08/Azumanga-Daioh-simple-background-Kamineko.jpg);
 	background-color: ;
     color:blue;
    
@@ -738,7 +735,34 @@ ul {
   height: 100%;
   border-left: 3px solid #000;
   z-index: 99999999;
+body {background:#f2f2f2;}
+ul {
+  position:relative;
+  //@include transform(rotate(-35deg) skew(20deg,45deg));
 }
+.list-item {
+  background:#000000;
+  color:#575757;
+  text-align:center;
+  height:2.5em;
+  width:4em;
+  vertical-align:middle;
+  line-height:2.5em;
+  border-bottom:1px solid #060606;
+  position:relative;
+  display:block;
+  text-decoration:none;
+  @include box-shadow(-2em 1.5em 0 #e1e1e1);
+  @include transition(top .25s linear,left .25s linear, background .1s linear, color .1s linear);
+  &:hover {
+    
+
+
+}
+
+
+
+
 
 
 
