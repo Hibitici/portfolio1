@@ -3,17 +3,21 @@
 body { 
 
 	
-	background-image: url(http://www.division1.ca/feedimages/simple-web-design.jpg);
+	background-image: url(http://content.wallpapers-room.com/resolutions/1920x1200/s/Wallpapers-room_com___simple_wall_glass_by_lassekongo83_1920x1200.jpg);
 	background-color: ;
     color:blue;
-   
-
+	}   
+@media screen and (max-width: 460px){
+ 
   
-}
+  }
+
 p{
 border-style: solid;
-border-color: ;
+border-color: black;
+color:.white;
 }
+
 
 #bar {
   
@@ -23,6 +27,7 @@ border-color: ;
   display: inline;
   float: left;
   margin-top: 35px;
+
 }
 
 .thing {
